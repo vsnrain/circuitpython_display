@@ -1,7 +1,19 @@
 Introduction
 ============
 
-CircuitPython library for NV3007 TFT LCD controller
+CircuitPython libraries for various displays
+
+NV3007
+
+- 1.68" 428x142 SPI
+
+GC9D01
+
+- 0.71" 160x160 SPI
+
+ST77916
+
+- 1.5" 360x360 QSPI
 
 Usage Example
 =============

@@ -1,4 +1,3 @@
-from fourwire import FourWire
 from busdisplay import BusDisplay
 
 class NV3007(BusDisplay):
@@ -138,5 +137,5 @@ class NV3007(BusDisplay):
         b"\x29\x80\x96"      # DISPON, Delay 150ms
     )
 
-    def __init__(self, bus: FourWire, **kwargs: Any):
+    def __init__(self, bus, **kwargs: Any):
         super().__init__(bus, self._INIT_SEQUENCE, **kwargs)
